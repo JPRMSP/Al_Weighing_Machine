@@ -7,7 +7,7 @@ from PIL import Image
 st.title("📏 AI Weighing Machine (Computer Vision-Based)")
 
 # Upload Image
-uploaded_file = st.file_uploader("📤 Upload an object image...", type=["jpg", "png", "jpeg"])
+uploaded_file = st.file_uploader("📤 Upload an ingredient image...", type=["jpg", "png", "jpeg"])
 
 # Reference Object Details
 st.sidebar.header("🔍 Reference Object (for Scaling)")
