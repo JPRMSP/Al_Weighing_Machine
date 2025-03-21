@@ -29,7 +29,7 @@ st.markdown(
 st.markdown("<h1 style='color: green;'>📏 AI Weighing Machine (Computer Vision-Based)</h1>", unsafe_allow_html=True)
 
 # --- 📤 Upload Image ---
-uploaded_file = st.file_uploader("📤 Upload an object image...", type=["jpg", "png", "jpeg"])
+uploaded_file = st.file_uploader("📤 Upload an ingredient image...", type=["jpg", "png", "jpeg"])
 
 # --- 🔍 Reference Object Details ---
 st.sidebar.markdown("<h2 style='color: green;'>🔍 Reference Object (for Scaling)</h2>", unsafe_allow_html=True)
